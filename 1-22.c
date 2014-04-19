@@ -1,14 +1,15 @@
 /*************************************************************************
  Author: 
- Created Time: Sat 22 Mar 2014 04:23:28 PM CST
- File Name: /home/mize/c/test3.c
+ Created Time: Sun 06 Apr 2014 05:22:04 PM HKT
+ File Name: /home/mize/Dropbox/git/learnc/1-22.c
  Description: 
  ************************************************************************/
 #include<stdio.h>
+
 main(){
 	int c;
-	
-	while ( (c = getchar()) != EOF ){
+
+	while ((c = getchar()) != EOF){
 		putchar(c);
 	}
 }

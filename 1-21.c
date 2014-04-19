@@ -1,43 +1,43 @@
 /*************************************************************************
  Author: 
- Created Time: Tue 25 Mar 2014 12:44:50 PM CST
- File Name: /c/1-21.c
- Description: 
- ************************************************************************/
+ Created Time: Fri 04 Apr 2014 01:26:37 PM HKT
+ File Name: /home/mize/test.c
+ Description:  
+ * File:   main.c
+ * Author: mize
+ *
+ * Created on April 2, 2014, 5:58 PM
+ */
+
 #include<stdio.h>
 #define TABINC 8
-
 main(){
-	int nb, nc, c, i;
-	nc = nb = i = 0;
-
-	while ( ( c = getchar() ) != EOF ){
-		if ( c == ' ' ){
-			++nb;
-			if ( nc == TABINC ){
-				putchar('\t');
-				putchar(' ');
+    int c, pos = 0;      // position of char
+    int nb = 0 ;         // nub of blank
+    
+    while ( (c = getchar()) != EOF ){
+        if ( c == ' '){
+            ++pos;
+            ++nb;
+            if (  pos % TABINC  ==  0 && nb > 1 ){
+				putchar ( '\t' );
 				nb = 0;
-			}
-		}else if ( nb > 0 ){
-			if ( nc == TABINC ){
-				putchar('\t');
-				putchar(c);
-				nb = 0;
-			}else{
-				while ( i < nb ){
-					putchar(' ');
-					++i;
-				}
-				putchar (c);
-				nb = 0;
-			}
-		}else{
-			putchar(c);
-		}
-		++nc;
-		if ( nc > TABINC ){
-			nc = 1;
-		}
-	}
+            }
+        } else if( c == '\n' ) {
+            pos = 0;
+            nb = 0;
+            putchar('\n');
+        } else {
+            if ( c == '\t'){
+                pos = pos + ( TABINC - pos % TABINC );
+            }else{
+                ++pos;            
+            }
+            while ( nb > 0 ){
+                --nb;
+                putchar(' ');
+            }
+            putchar(c);
+        }
+    }
 }
