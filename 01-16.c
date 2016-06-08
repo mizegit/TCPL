@@ -1,8 +1,8 @@
 /*************************************************************************
- Author: 
+ Author:
  Created Time: Sun 23 Mar 2014 03:56:05 PM CST
  File Name: /home/mize/c1-8.c
- Description: 
+ Description:
  ************************************************************************/
 #include <stdio.h>
 #define MAXLINE 1000
@@ -26,7 +26,7 @@ main()
 		}
 		if ( max > 0 ){
 			printf("%s", longest);
-		} 			 
+		}
 	}
 	return 0;
 }
