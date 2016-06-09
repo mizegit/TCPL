@@ -29,6 +29,10 @@ main(){
                 pos = exptab(pos);
             if (c == ' '){
                 ++pos;
+                if (pos > MAXCOL){
+                    putchar('\n');
+                    pos = 0;
+                }
                 putchar(' ');
             }
             if (c == '\n'){

@@ -29,6 +29,7 @@ main()
             pos = newpos(pos);
         }
     }
+    printl(pos);
 }
 
 /* printl: print line until pos column           */
