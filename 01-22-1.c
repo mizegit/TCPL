@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define  MAXCOL  80    /* maximum column of input */
+#define  MAXCOL  85    /* maximum column of input */
 #define  TABINC  8     /* tab increment size      */
 
 char word[MAXCOL];     /* iput line               */
@@ -31,7 +31,7 @@ main(){
                 ++pos;
                 if (pos > MAXCOL){
                     putchar('\n');
-                    pos = 0;
+                    pos = 1;
                 }
                 putchar(' ');
             }
@@ -66,7 +66,11 @@ int exptab(pos){
 
     if (pos > MAXCOL){
         putchar('\n');
-        return 0;
+        while (i > 0){
+            putchar(' ');
+            --i;
+        }
+        return i;
     }else{
         while (i > 0){
             putchar(' ');
