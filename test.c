@@ -3,5 +3,12 @@
 main()
 {
     int c;
-    printf("%d",c=getchar());
+    c = 65;
+
+    printf("%d\n",c);
+    printf("%x",c);
+
+    char d;
+    d =
+    printf("%s",d);
 }
