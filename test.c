@@ -6,9 +6,11 @@ main()
     c = 65;
 
     printf("%d\n",c);
-    printf("%x",c);
+    printf("%x\n",c);
 
-    char d;
-    d =
+    char d[2];
+    d[0]='a';
+    d[1]='b';
+    d[2]='c';
     printf("%s",d);
 }
