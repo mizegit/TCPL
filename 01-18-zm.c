@@ -17,14 +17,14 @@ main(){
                 ;//printf("got a blank line\n");
             else{
                 i = cutblank(line,i);
-                if (i == 0)
-                //    printf("got a blank line\n");
-                ++i;
-                line[i]='\n';
-                ++i;
-                line[i]='\0';
-                printl(line);
-                i = 0;
+                if (i > 0){
+                    ++i;
+                    line[i]='\n';
+                    ++i;
+                    line[i]='\0';
+                    printl(line);
+                    i = 0;
+                }
             }
         }else{
             line[i] = c;
@@ -59,7 +59,6 @@ int cutblank(char s[],int len)
         c = s[len];
         if ( c == ' ' || c == '\t'){
             //printf("got a space\n");
-            s[len]='\0';
             if (len == 0)
                 return 0;
             --len;

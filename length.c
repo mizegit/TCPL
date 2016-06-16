@@ -3,14 +3,14 @@
 main()
 {
     int c;
-    int n;
-    n = 0;
+    c = 65;
 
-    while((c = getchar()) != EOF){
-        ++n;
-        if (c == '\n'){
-            printf("%d,", n);
-            n = 0;
-        }
-    }
+    printf("%d\n",c);
+    printf("%x\n",c);
+
+    char d[2];
+    d[0]='a';
+    d[1]='b';
+    d[2]='c';
+    printf("%s",d);
 }
