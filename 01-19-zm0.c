@@ -41,7 +41,6 @@ char reverse(char s[]){
     --i;
 	if (s[i] = '\n')
 		--i;
-    --i;
 
     if (i > 0){
         while ( j < i ){
