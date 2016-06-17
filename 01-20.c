@@ -1,34 +1,60 @@
-/*************************************************************************
- Author: 
- Created Time: Mon 24 Mar 2014 04:33:33 PM CST
- File Name: /home/mize/c/1-20.c
- Description: 
- ************************************************************************/
 #include <stdio.h>
-#define TABINC 30
+#define TABINC 4
+#define MAXLINE 1000
+
+int getline(char s[],int maxline);
+void detab(char s[], char st[], int tabinc);
+
+char s[MAXLINE];
+char st[MAXLINE];
 
 main()
 {
-	int nc, c;
-	nc = 0;
+	int i;
 
-	while (( c = getchar() ) != EOF)
+	while ( (i = getline(s,MAXLINE) ) > 0)
 	{
-		if ( c == '\t' ){
-			while ( nc < TABINC )
-			{
-				putchar (' ');
-				++nc;
-			}
-		}else if ( c == '\n'){
-			putchar ('\n');
-			nc = 0;
-		}else{
-			putchar(c);
-			++nc;
-		}
-		if ( nc == TABINC ){
-			nc = 1;
-		}
+        detab(s,st,TABINC);
+        printf("%s", st);
 	}
+}
+
+void detab(char s[], char st[], int tabinc){
+    int i, j, nb;
+
+    j = 0;
+    for (i=0; s[i]!='\0' ; ++i){
+        if (s[i] == '\t'){
+            nb = tabinc - (j % tabinc);
+            while (nb > 0){
+                st[j] = ' ';
+                ++j;
+                --nb;
+            }
+        }else{
+            st[j] = s[i];
+            ++j;
+        }
+    }
+    st[j] = '\0';
+}
+
+/* getline: read a line into s, return length */
+int getline(char s[], int lim)
+{
+    int c, i, j;
+
+    j = 0;
+    for (i = 0; (c = getchar()) != EOF && c != '\n'; ++i)
+        if (i < lim -2){        /* line still in boundaries */
+            s[j] = c;
+            ++j;
+        }
+    if (c == '\n'){
+        s[j] = c;
+        ++j;
+        ++i;
+    }
+    s[j] = '\0';
+    return i;
 }

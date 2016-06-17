@@ -2,15 +2,15 @@
 
 main()
 {
-    int c;
-    c = 65;
+    int i;
+    for (i=0; i < 10 ; ++i){
+        printf("%d\n",i);
+    }
+    printf("%d\n---\n",i);
 
-    printf("%d\n",c);
-    printf("%x\n",c);
-
-    char d[2];
-    d[0]='a';
-    d[1]='b';
-    d[2]='c';
-    printf("%s",d);
+    i = 0;
+    while (i < 10){
+        ++i;
+        printf("%d\n",i);
+    }
 }
