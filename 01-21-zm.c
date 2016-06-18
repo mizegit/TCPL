@@ -20,31 +20,38 @@ main()
 }
 
 void entab(char s[], int tabinc){
-    int i, j, k, l, pos;
+    int i, j, nt, nb, pos;
 
     j = 0;
     pos = 0;
+    nb = 0;
+    nt = 0;
     for (i=0; s[i]!='\0' ; ++i){
-        if (s[i] == '\t'){
-            s[j] = '\t';
-            ++j;
-            pos = pos + (tabinc - pos % tabinc);
-        }else if ( (pos + 1) % tabinc == 0 && s[i] == ' '){
-            printf("pos - %d\n", pos);
-            printf("got a blank before tab stop\n");
-            k = i;
-            l = tabinc;
-            while (s[k] == ' ' && l > 0){
-                printf("s[i] - %c\n", s[i]);
-                --l;
-                --j;
-                --k;
+        if (s[i] == ' '){
+             if ((pos + 1) % tabinc == 0){
+                nb = 0;
+                ++nt;
+             }else{
+                ++nb;
+             }
+             ++pos;
+        } else if (s[i] == '\t'){
+                nb = 0;
+                s[j] = '\t';
+                ++j;
+                pos = pos + (tabinc - pos % tabinc);
+        } else {
+            //printf("%d - %d\n",nb, nt);
+            while (nt > 0){
+                s[j]='\t';
+                --nt;
+                ++j;
             }
-            ++j;
-            s[j] = '\t';
-            ++j;
-            ++pos;
-        }else{
+            while (nb > 0){
+                s[j]=' ';
+                --nb;
+                ++j;
+            }
             s[j] = s[i];
             ++j;
             ++pos;
