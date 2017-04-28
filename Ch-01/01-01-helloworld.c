@@ -3,4 +3,5 @@
 main()
 {
     printf("hello, world\n");
+    getchar();
 }
