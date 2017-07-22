@@ -24,6 +24,6 @@ void listarr(int a[], int n){
 main(){
     int a[]={3,2,4,11,5,7};
     listarr(a, 6);
-    shellsort (a, 6);
+    shellsort(a, 6);
     listarr(a, 6);
 }
