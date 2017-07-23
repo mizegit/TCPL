@@ -9,13 +9,14 @@ int binsearch( int x, int v[], int n)
     high = n - 1;
     mid = (low + high)/2;
     while (low <= high && x != v[mid]) {
-        printf ("%d\n", mid);
+        //printf ("%d\n", mid);
         if (x < v[mid])
             high = mid - 1;
         else
             low = mid + 1;
         mid = (low + high)/2;
     }
+    //printf("%d",v[mid]);
     if (x == v[mid])
         return mid;
     else
@@ -23,15 +24,9 @@ int binsearch( int x, int v[], int n)
 }
 
 main(){
-     int a[5];
+     int a[6] = {1,2,4,7,3,12};
      int b;
-     a[0] = 1;
-     a[1] = 2;
-     a[2] = 4;
-     a[3] = 8;
-     a[4] = 16;
-     a[5] = 19;
-     b = 19;
+     b = 77;
 
      printf ( "  %d", binsearch(b, a, 6) );
 }
