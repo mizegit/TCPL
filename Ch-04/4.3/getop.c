@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include <ctype.h>
+#define NUMBER '0'
 
 int getch(void);
 void ungetch(int);
