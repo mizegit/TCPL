@@ -11,12 +11,13 @@
 int getop(char[]);
 void push(double);
 double pop(void);
+void clear(void);
 
 /* reverse Polish calculator */
 main ()
 {
     int type;
-    double op2;
+    double op1, op2;
     char s[MAXOP];
 
     while ((type = getop(s)) != EOF) {
@@ -48,6 +49,25 @@ main ()
         	else
         		printf ("error: zero divisor\n");
         	break;
+        case '?':
+        	op2 = pop();
+        	printf ("\t%.8g\n", op2);
+        	push(op2);
+        	break;
+        case 'c':
+        	clear();
+        	break;
+        case 'd':
+        	op2 = pop();
+        	push(op2);
+        	push(op2);
+        	break;
+        case 's':
+        	op1 = pop();
+        	op2 = pop();
+        	push(op1);
+        	push(op2);
+        	break;
         case '\n':
             printf("\t%.8g\n", pop());
             break;
@@ -58,6 +78,7 @@ main ()
     }
     return 0;
 }
+
 
 /* getop: get next operator or numeric operand */
 int getop(char s[])
@@ -129,4 +150,10 @@ double pop(void)
         printf("error: stack empty\n");
         return 0.0;
     }
+}
+
+/* clear: clear the stack */
+void clear(void)
+{
+	sp = 0;
 }
