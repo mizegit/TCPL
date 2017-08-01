@@ -18,7 +18,7 @@ void ungetch(int);
 
 int getint(int *pn)
 {
-	int c, sign;
+	int c, d, sign;
 	
 	while(isspace(c = getch()))
 		;
@@ -28,8 +28,15 @@ int getint(int *pn)
 		return 0;
 	}
 	sign = (c == '-') ? -1 : 1;
-	if ( c == '+' || c== '-')
-		c = getch();
+	if ( c == '+' || c== '-'){
+		d = c;
+		if (!isdigit(c = getch())){
+			if (c != EOF)
+				ungetch(c);
+			ungetch(d);
+			return d;
+		}
+	}
 
 	for (*pn = 0; isdigit(c); c = getch())
 		*pn = 10 * *pn + (c - '0');
