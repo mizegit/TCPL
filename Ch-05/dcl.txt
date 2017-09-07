@@ -2,3 +2,4 @@ int *pa[]
 int (*pa)[]
 int *comp()
 int (*comp)()
+char (*(*x())[])()
