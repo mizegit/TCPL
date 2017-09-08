@@ -5,15 +5,19 @@
 #define MAXTOKEN 100
 
 enum { NAME, PARENS, BRACKETS };
+enum { NO, YES };
 
 void dcl(void);
 void dirdcl(void);
 int gettoken(void);
+void errmsg(char *msg);
+
 int tokentype;
 char token[MAXTOKEN];
 char name[MAXTOKEN];
 char datatype[MAXTOKEN];
 char out[1000];
+int prevtoken = NO;
 
 main()
 {
@@ -33,6 +37,12 @@ int gettoken(void)
 	int c, getch(void);
 	void ungetch(int);
 	char *p = token;
+	
+	if (prevtoken == YES) {
+		prevtoken = NO;
+		printf("prev %d \n", tokentype);
+		return tokentype;
+	}
 	
 	while ((c = getch()) == ' ' || c == '\t')
 		;
@@ -77,11 +87,11 @@ void dirdcl(void)
 	if (tokentype == '(') {
 		dcl();
 		if (tokentype != ')')
-			printf("error: missing )\n");
+			errmsg("error: missing )\n");
 	} else if ( tokentype == NAME )
 		strcpy(name, token);
 	else
-		printf("error: expected name or (dcl)\n");
+		errmsg("error: expected name or (dcl)\n");
 	while ((type = gettoken()) == PARENS || type == BRACKETS)
 		if (type == PARENS)
 			strcat(out, " function returning");
@@ -90,6 +100,12 @@ void dirdcl(void)
 			strcat(out, token);
 			strcat(out, " of");
 		}
+}
+
+void errmsg(char *msg)
+{
+	printf("%s", msg);
+	prevtoken = YES;
 }
 
 #define BUFSIZE 100
