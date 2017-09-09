@@ -5,15 +5,17 @@
 #define MAXTOKEN 100
 
 enum { NAME, PARENS, BRACKETS };
+enum {NO, YES};
 
 void dcl(void);
 void dirdcl(void);
 int gettoken(void);
+int nexttoken(void);
 int tokentype;
+
 char token[MAXTOKEN];
-char name[MAXTOKEN];
-char datatype[MAXTOKEN];
 char out[1000];
+int prevtoken = NO;
 
 main()
 {
@@ -26,7 +28,10 @@ main()
 			if (type == PARENS || type == BRACKETS)
 				strcat(out, token);
 			else if (type == '*') {
-				sprintf(temp, "(*%s)", out);
+				if ( (type = nexttoken()) == PARENS || type == BRACKETS )
+					sprintf(temp, "(*%s)", out);
+				else
+					sprintf(temp, "*%s", out);
 				strcpy(out, temp);
 			} else if (type == NAME) {
 				sprintf(temp, "%s %s", token, out);
@@ -38,12 +43,26 @@ main()
 	return 0;
 }
 
+int nexttoken(void)
+{
+	int type;
+	
+	type = gettoken();
+	prevtoken = YES;
+	return type;
+}
+
 int gettoken(void)
 {
 	int c, getch(void);
 	void ungetch(int);
 	char *p = token;
-	
+
+	if (prevtoken == YES) {
+		prevtoken = NO;
+		return tokentype;
+	}
+
 	while ((c = getch()) == ' ' || c == '\t')
 		;
 	if (c == '(') {
@@ -67,39 +86,6 @@ int gettoken(void)
 		return tokentype = NAME;
 	} else
 		return tokentype = c;
-}
-
-void dcl(void)
-{
-	int ns;
-	
-	for (ns = 0; gettoken() == '*';)
-		ns++;
-	dirdcl();
-	while (ns-- > 0)
-		strcat(out, " pointer to");
-}
-
-void dirdcl(void)
-{
-	int type;
-	
-	if (tokentype == '(') {
-		dcl();
-		if (tokentype != ')')
-			printf("error: missing )\n");
-	} else if ( tokentype == NAME )
-		strcpy(name, token);
-	else
-		printf("error: expected name or (dcl)\n");
-	while ((type = gettoken()) == PARENS || type == BRACKETS)
-		if (type == PARENS)
-			strcat(out, " function returning");
-		else {
-			strcat(out, " array");
-			strcat(out, token);
-			strcat(out, " of");
-		}
 }
 
 #define BUFSIZE 100
@@ -127,4 +113,3 @@ void ungets(char *s)   /* push character back on input */
 	while (len > 0)
     	ungetch(s[--len]);
 }
-
