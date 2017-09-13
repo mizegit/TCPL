@@ -8,6 +8,7 @@ struct key {
 	char *word;
 	int count;
 } keytab[] = {
+	"_break", 0,
 	"auto", 0,
 	"break", 0
 };
@@ -18,16 +19,22 @@ struct key {
 int getword(char *, int);
 int binsearch(char *, struct key *, int);
 
+int getch(void);
+void ungetch(int);
+int comment(void);
+	
 /* count C keywords */
 main()
 {
 	int n;
 	char word[MAXWORD];
 	
-	while (getword(word, MAXWORD) != EOF)
-		if (isalpha(word[0]))
+	while (getword(word, MAXWORD) != EOF) {
+		if (isalpha(word[0]) || word[0] == '_' || word[0] == '#' || word[0] == '\'' || word[0] == '"') {
 			if ((n = binsearch(word, keytab, NKEYS)) >= 0)
-				keytab[n].count++;
+				keytab[n].count++;		
+		}
+	}
 	for (n = 0; n < NKEYS; n++)
 		if (keytab[n].count > 0)
 			printf("%4d %s\n",
@@ -58,25 +65,48 @@ int binsearch(char *word, struct key tab[], int n)
 /* getword: get next word or character from input */
 int getword(char *word, int lim)
 {
-	int c, getch(void);
-	void ungetch(int);
+	int c, d;
 	char *w = word;
 	
 	while (isspace(c = getch()))
 		;
 	if (c != EOF)
 		*w++ = c;
-	if (!isalpha(c)) {
-		*w = '\0';
-		return c;
-	}
-	for (; --lim > 0; w++)
-		if (!isalnum(*w = getch())) {
-			ungetch(*w);
-			break;
-		}
+	if (isalpha(c) || c == '_' || c == '#') {
+		for (; --lim > 0; w++)
+			if (!isalnum(*w = getch()) && *w != '_') {
+				ungetch(*w);
+				break;
+			}
+	} else if ( c == '\'' || c == '"') {
+		for ( ; --lim > 0; w++)
+			if ((*w = getch()) == '\\')
+				*++w = getch();
+			else if (*w == c) {
+				w++;
+				break;
+			} else if (*w == EOF)
+				break;
+	} else if ( c == '/' )
+		if ((d = getch()) == '*')
+			c = comment();
+		else
+			ungetch(d);
 	*w = '\0';
-	return word[0];
+	return c;
+}
+
+/*comment: skip over comment and return a character */
+int comment(void)
+{
+	int c;
+	while ((c = getch()) != EOF)
+		if (c == '*')
+			if ((c = getch()) == '/')
+				break;
+			else
+				ungetch(c);
+	return c;
 }
 
 #define BUFSIZE 100
