@@ -1,0 +1,6 @@
+break
+auto
+hello
+brdsd
+break
+word
