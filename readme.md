@@ -1,1 +1,1 @@
-the c programe language 2th answer  
+the c programe language 2nd answer  
