@@ -1,3 +1,4 @@
-THE C Programe Language 2nd examples and excercises.
+The C Programe Language 2nd examples and excercises.
 
-enviroment: Dev-cpp Version 5.11 ( MinGW TDM-GCC )
+Enviroment: 
+Dev-cpp Version 5.11 ( MinGW TDM-GCC )
