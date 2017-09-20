@@ -8,6 +8,7 @@ struct key {
 	char *word;
 	int count;
 } keytab[] = {
+	"'we'", 0,
 	"_break", 0,
 	"auto", 0,
 	"break", 0

@@ -23,16 +23,18 @@ int getword(char *, int);
 int getch(void);
 void ungetch(int);
 
-main(int argc, char * argv[])
+main(int argc, char *argv[])
 {
 	struct tnode *root;
-	char word[MAXWORD];
+	char word[MAXWORD+1];
 	int found = NO;
 	int num;
 	
 	num = (--argc && (*++argv)[0] == '-') ? atoi(argv[0]+1) : 6;
+	printf("%d\n", num);
 	root = NULL;
 	while (getword(word, MAXWORD) != EOF){
+		printf("%d %d %d\n", strlen(word) >= num, strlen(word), num);
 		if (isalpha(word[0]) && strlen(word) >= num)
 			root = addtreex(root, word, num, &found);
 		found = NO;	
@@ -68,10 +70,12 @@ int compare(char *s, struct tnode *p, int num, int *found)
 	for (i = 0; *s == *t; i++, s++, t++)
 		if (*s == '\0')
 			return 0;
+		
 	if (i >= num) {
 		*found = YES;
 		p->match = YES;
 	}
+
 	return *s - *t;
 }
 
@@ -132,6 +136,7 @@ int getword(char *word, int lim)
 		else
 			ungetch(d);
 	*w = '\0';
+	printf("> %s\n", word);
 	return c;
 }
 
