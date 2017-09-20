@@ -56,7 +56,7 @@ struct tnode *addtreex(struct tnode *p, char *w, int num, int *found)
 	} else if ((cond = compare(w, p, num, found)) < 0)
 		p->left = addtreex(p->left, w, num, found);
 	else if (cond > 0)
-		p->right = addtreex(p->left, w, num, found);
+		p->right = addtreex(p->right, w, num, found);
 	return p;
 }
 
