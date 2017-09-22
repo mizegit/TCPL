@@ -1,0 +1,830 @@
+       All:   56 
+    Almost:  166 
+        An:  117 
+       And:   57  120  167  193 
+    Andros:   80  126 
+       Are:   15 
+        As:   28  144  183 
+        At:   23 
+      Aunt:   43  122 
+ Batteraft:   38  135 
+       Boy:   60 
+   Britton:  176  183 
+       But:   48   60   87   94  138  175  185 
+       Cap:   69   95  172  223 
+   Captain:   22   87  134  141  159  188 
+     Cause:   77 
+        Do:  228 
+    Father:  124  205 
+Fiddlesticks:  209 
+   Finally:  196 
+       For:  105  141 
+        He:   32  149  217 
+    Heaven:  119 
+       Her:  187 
+      Here:   96 
+       How:  202 
+         I:    6   10   12   17   28   43   58   60   61   62   64   70   73   79   81   82   84   87   93   96  102  105  109  111  114  118  120  122  123  124  145  148  151  160  161  166  171  172  173  179  184  192  200  204  206  211  216  217  222  226  228 
+        In:  200  202 
+    Indeed:  148 
+      Isle:   80 
+        It:    3    7   20   69  214 
+      Keep:  156 
+   Lucayas:   77 
+      Many:  219 
+       May:   71 
+       Mrs:    3   18   28   39   58   69  100  107  129  140  166  180  209 
+        My:  113 
+       Ned:  176  183 
+      None:   92 
+       Now:  123 
+   Perhaps:   56   87 
+     Ranck:    3   18   28   39   58   69  100  107  129  140  166  180  209 
+       Sam:    1   15  156  173 
+   Saracen:   71   77   93  120  137 
+       She:  191 
+    Steele:   87   95  134 
+      Tell:   51   64   65 
+      That:   81 
+       The:    8   46   67   90   92  128  155  159  172  182  223 
+      Then:   73   84  101  130 
+     There:   11   37  112 
+ Therefore:  161 
+      This:   18  117 
+   Through:  135 
+      Well:  198 
+      What:   43  226 
+       Why:  109  204 
+      With:   17  179 
+       Yes:   53 
+       Yet:  114 
+      Your:  213 
+   ability:  132 
+    aboard:   71 
+     about:   37   59   65   69  168  188 
+  accident:  218 
+acknowledged:  134 
+    across:   74 
+   affairs:  140 
+ affection:  161 
+     afore:   82 
+    afraid:   31 
+   against:  192 
+       age:  217 
+       ago:  120 
+     agone:   81 
+   aground:  175 
+       air:   34 
+     alive:   81   92 
+       all:   62   78  111  157  161 
+    almost:  214 
+     alone:  117  123 
+      also:   87 
+  although:   73  123  207 
+    always:  106  152 
+        am:  151  204 
+   amassed:  137 
+     among:   95 
+     angry:  117 
+   another:   39  112 
+    answer:   75 
+  answered:   53   92  132  222 
+   answers:  167 
+   anxiety:   40 
+       any:  138  157 
+  anything:  110 
+ appealing:   48 
+  appeared:  114 
+    around:  112 
+        as:   26   31   43   70   73   95   97  109  144  149  166  171  188  189  204  218 
+    ashore:   80   87  139  141  151 
+     aside:   33 
+     asked:   43  200  226 
+assistance:   70 
+   assumed:  186 
+        at:   11   22   24   32   46   47   80   85  105  128  129  148 
+    attend:  205 
+     attic:    7 
+      away:   31   59  120  125  183 
+       awe:  143 
+      baby:  228 
+      back:   25   59  107  108  191 
+    backed:   20 
+      bade:  130 
+       bag:   97 
+      band:  112 
+      bare:    9 
+        be:   96  157  187 
+    bearer:   57 
+      beat:  114 
+    beaten:   32 
+    became:  217 
+   because:   47  160  223 
+    become:  136 
+       bed:   11 
+      been:   25  140  148 
+     began:   56 
+      bent:  183 
+bereavement:  162 
+    bereft:  111 
+   besides:  206 
+      best:  132  134 
+       big:   20   31  169 
+    bigger:  157 
+    bitter:    3 
+      blow:  171 
+     bluff:  124 
+     blunt:   78 
+      body:   84 
+      book:   17 
+     books:   13 
+      both:  168 
+    bottom:   78 
+     bound:   75 
+     bowed:   47 
+   bowline:  176 
+       boy:  126  156  173 
+    braced:   62 
+     brain:   81  113 
+     brief:  159 
+   briefly:   49  180 
+    bright:  159 
+     bring:   82   96  188 
+     broad:   23 
+     built:   25 
+    burial:   94 
+     burst:  110 
+       but:   39   46   53   78   92  121  129  137  145  151  152  187  192  216 
+   buttons:  106 
+        by:   25   58  176  211 
+  calamity:   59 
+      call:  122 
+    called:   82 
+ calloused:  169 
+      calm:  115 
+  calmness:  186 
+       can:    6 
+    candle:  183 
+   capable:  161 
+ carbuncle:  102 
+      care:  121 
+      case:  150  218 
+      cast:   93  175 
+catastrophe:  131 
+    caught:   79   85 
+     cause:  149 
+   certain:  186 
+     chair:   97  108 
+    chairs:   30 
+   chamber:   26 
+   chamois:   97 
+   chanced:   48 
+    change:  188 
+ character:  144 
+     chest:  113 
+   clothes:  228 
+     coast:   38 
+      cold:   69 
+collection:   13 
+  colossal:  162 
+      come:    1  122 
+   comfort:  143 
+comfortable:  155 
+    coming:   15 
+  compared:  187 
+complaints:  146 
+complexion:   58 
+concerning:  131 
+  confided:  140 
+confronting:   39 
+considerable:  206 
+ continued:   46   96 
+convenience:  122 
+    convey:   75 
+    cooked:   19 
+   corpses:   93 
+      cost:  229 
+   cottage:    7   25 
+     could:   65  102  109  187 
+    couldn:   82 
+  courtesy:  122 
+   crabbed:  121 
+     craft:   10 
+  creaking:  109 
+     cried:   73  196  213 
+     cross:  121 
+ curiously:  163 
+      darn:   20 
+       day:    7  157 
+      days:   79 
+      dead:   80   95  125 
+      deal:   11 
+      dear:  148 
+    dearly:  150 
+     death:  150  188 
+    decent:   94 
+      deed:  214  217 
+deliberation:   78 
+ descended:   17 
+   desires:  138 
+desperately:   73  114 
+ determine:   34 
+determined:  184 
+       did:   46   60  106  192 
+      didn:  213  222 
+      died:  183 
+ different:  141 
+   disgust:  115 
+disinclined:   54 
+        do:  110  198 
+     doing:  204 
+       don:  176  229 
+      done:    8 
+      door:   17   23 
+      down:   17 
+   dreaded:  148 
+     dream:  166 
+  drearily:  200 
+      drew:  101 
+   dropped:  144 
+    dulled:  164 
+    during:  182 
+      each:  193 
+      ease:   48 
+    easily:    6 
+      easy:   34 
+      edge:   29 
+    effect:  128 
+   effects:  162 
+      else:  160 
+        em:   94   95   96 
+embarrassed:   47 
+       end:    7   22 
+  engulfed:  118 
+    enough:   34  115  138  145 
+   entered:   28 
+entertained:  125 
+entreaties:  153 
+      even:   73 
+      ever:  102  135  175  228 
+     every:   37  202 
+everything:  167 
+      evil:   57  222 
+    except:    9 
+exceptional:  144 
+ exclaimed:  209 
+ existence:  160 
+ explained:  216 
+       eye:  223 
+      eyes:   41   48  191 
+      face:   40   49   58  192 
+      fact:  115  186 
+     facts:  223 
+     faded:  182 
+      fall:   84 
+    fallen:  107 
+       far:  125  162 
+    faring:   35 
+    father:   65   87  101  117  120  143  148  213  216 
+      fear:   43  125 
+  features:   70  185 
+ feelingly:  171 
+      feet:  168 
+      felt:   58   84 
+       fer:  202 
+     fever:   81   82   93 
+    fierce:  166 
+    filled:  115 
+      find:   29   39   70  175 
+    finger:  102 
+   fingers:  100 
+     first:   46   74 
+    fisher:   94 
+ fisherman:   80 
+     fists:   31 
+   flannel:   32 
+     flash:  222 
+   flashed:   74 
+   floated:   79   87 
+     flood:  110 
+     folks:   94 
+  followed:    8  131 
+      food:  228 
+ footsteps:  183 
+       for:    9   22   37   62  125  139  143  151  155  174  193  217  226 
+  forehead:  112 
+   foreign:  136 
+    forget:  176 
+     forth:  101  108  191 
+   fortune:  137 
+  fortunes:  188 
+   forward:  184 
+     found:   95 
+ foundered:   77 
+      four:   79 
+    freely:  137 
+    friend:  111  175 
+      from:   10   33   34   38   44   59   97  180 
+   further:   54 
+    gasped:   88 
+      gave:  186 
+    gently:  168 
+       get:   31 
+      give:   94 
+        go:  129 
+      goin:  198  202 
+      good:  172 
+     goods:  174 
+       got:   38  168 
+   grasped:   30 
+      gray:   41 
+  greasing:  109 
+      grim:  184 
+     guess:  139  222 
+   gyrated:  108 
+       had:   10   25   81  102  107  111  118  122  124  135  136  137  144  148  151  160  167  171  182 
+     hands:   78  168  179  185 
+    happen:  218 
+  happened:  220 
+      hard:  121  193 
+       has:  155  216  219 
+       hat:   30 
+      have:   57  114  140 
+    having:  219 
+        he:   30   34   47   48   53   69   87   92   96   97  102  106  136  144  146  151  152  155  167  168  171  173  174  179  180  219 
+      head:   47   90 
+      hear:   62   65 
+     heard:  166  173 
+     heart:   43  113 
+      held:  217 
+       her:   19   26   40   49  107  130  142  143  146  185  186  188  191  222 
+      here:    1   73 
+ hereafter:  126 
+      high:   20 
+       him:   51   71  126  130  146  149  153  173  218  222 
+   himself:  107 
+       his:   30   33   34   53   57   58   90   97  102  106  120  125  126  128  129  130  132  139  140  150  151  156  168  169  173 
+   holding:   30 
+      home:  148  155  159  219 
+      hope:   85 
+    horror:   74 
+     house:   21  205  213  223 
+housekeeper:   26  141  182 
+   hurried:  180 
+     husky:   64 
+        if:   31   57   70   84  106  109  166  175 
+       ill:   47  128 
+        in:    6    7   19   21   28   30   37   38   40   44   53   61   70   92   93  111  117  119  123  125  136  137  143  156  159  162  166  168  174  185  188  193  213  214  217  218  222  228 
+inexperienced:   61 
+   insured:  219 
+ interview:  182 
+      into:   69  107  110  223 
+      iron:  112 
+    island:  126 
+        it:   24   31   33   43   65   82   84  100  109  132  137  140  163  217 
+       its:   61  162 
+    jacket:   33  106 
+     judge:   58 
+       kep:   96  228 
+      kept:   12 
+      kind:  172 
+      knew:   62  167 
+      know:  216 
+     known:  101  118  135 
+       lad:  155  171  175 
+      laid:   17   19 
+       lap:   30 
+       las:   71 
+      last:   80 
+  lavished:  160 
+       lay:   93 
+    leaned:  192 
+     learn:  126 
+   leaving:   21 
+      left:  108  121  173 
+   lessons:    7 
+      life:   61  163 
+      like:   59 
+     lines:    9 
+    listen:  152 
+       lit:  182 
+    little:    6   12   37  102  118  151 
+      live:  126  202 
+    living:   19   28   38 
+        ll:  157  176 
+      long:  193 
+      look:   40  184 
+    looked:   44  211 
+   looking:   69 
+      loss:  187 
+      lost:  207 
+      love:  160 
+     loved:  150  151 
+       low:   23   64 
+     lower:   18   21 
+      luck:  175 
+     lying:  125 
+         m:  171  206 
+      make:   56 
+     makin:   79 
+       man:   35   53   56   67  132  138  149  157  172  174 
+    manner:   34   58 
+      many:   93  135  150  172 
+     marks:   33 
+      marm:   53 
+      mask:  145 
+    master:  172 
+     match:  106 
+    matter:  168  220 
+        me:   39   56   60   64   65   78   80   92  115  123  151  152  163  186  217  218  219  224 
+    meager:   12 
+     meals:   19 
+     meant:  211 
+       men:   95 
+      mend:   20 
+    merely:  138  216 
+ messenger:   57 
+     might:  140 
+      mind:   74 
+    minded:  145 
+      mine:  187  206  214 
+   mingled:   40 
+    modest:    7 
+    moment:  149 
+     money:  224  229 
+    months:   81 
+      more:    3   80 
+      most:   21  134 
+    mostly:  174 
+    mother:  119 
+    motion:  129 
+      much:  204 
+      must:   57   62  114  126 
+  muttered:  171 
+        my:    6   12   17   43   44   64   65   74   84   87  101  112  113  118  143  148  153  156  159  160  161  163  164  168  179  189  192  211  214  219  223 
+    myself:   62   65  111  205 
+         n:   69   80   95  172  223 
+      name:  214  223 
+    nature:  146 
+      neck:   32 
+      need:  175 
+    needed:  109 
+ neighbors:  139 
+   nervous:   56 
+ nervously:  108 
+     never:  145  152 
+       new:  185 
+      news:   57   82  163 
+      next:    6 
+      nigh:   81 
+    nights:   79 
+        no:  105  123  140  155  160  163  219 
+  nobility:  144 
+    nodded:   49   67  180 
+       not:   15   46   60  106  109  136  187  192 
+     noted:  184 
+   nothing:   37 
+  noticing:  105 
+       now:  117  128  198  204  206 
+  numerous:    9 
+         o:   93  174  213 
+ obviously:  128 
+  occupied:   25 
+     ocean:   38 
+        of:    7    9   13   21   25   29   30   33   38   40   47   48   57   61   74   85  110  111  119  121  126  128  130  132  134  135  136  138  139  143  144  146  150  151  157  161  173  186  217 
+       off:    8   77 
+     often:  145  216 
+       old:   32   38  121  139 
+        on:   95  106  107  120  139 
+       one:    7   11   22   23   29   37   38   44   70  105  113  134  140  149  160  202 
+      ones:  169 
+      only:    8   22  111  118  136  159 
+      onto:   24 
+      open:   32 
+    opened:   17 
+   opening:   24 
+        or:   15   39  110  175 
+    ordeal:   62 
+    orphan:  117 
+     other:   10   12   23   24   44  114  193 
+       our:    7   19   37 
+       out:  196 
+ outwardly:  114 
+      over:    6   12  217 
+  overtake:   60 
+      owed:  224 
+       own:  142  189  213  214 
+     owned:  205 
+     owner:  136 
+      pair:   48 
+    parent:  161 
+      part:   21  139 
+     parts:  136 
+    passed:  151 
+       pea:   33  106 
+perplexity:   44 
+persistently:  142 
+    person:  141 
+  pictures:    9 
+     place:   22   97  155 
+      plan:  219 
+ plastered:   10 
+    please:   64 
+    plenty:  174 
+     plied:  130 
+      poor:  143 
+     porch:   23 
+    poring:    6 
+      pose:  173  228 
+   pounced:  100 
+   present:  161 
+  pressure:  179 
+   proceed:   54 
+profession:   33 
+  properly:   24 
+  property:  206 
+protection:  218 
+     prove:  110 
+  provided:  173 
+    pulled:   80 
+       put:  223 
+  question:  211 
+ questions:  131  166 
+     raise:   48 
+      rare:  152 
+    rather:   48 
+       ray:   85 
+  reaching:  162 
+realization:   74 
+  realized:  111 
+    recall:    6 
+recounting:  142 
+   recover:  129 
+       red:   31 
+    refuge:  119 
+  regarded:  193 
+regretfully:   90 
+   regular:  191 
+  relation:  123 
+  relative:  118 
+ reluctant:  167 
+remarkable:   37 
+  remember:  103 
+   replied:  216 
+     reply:   46  156 
+  reserved:  149 
+resourceful:  124 
+  response:   28 
+    resume:  130 
+   resumed:  191 
+reverently:   98 
+     right:  171 
+      ring:   96  102 
+  riveting:  191 
+    rocker:   20  109 
+   rocking:  108  191 
+      roof:    9 
+      room:    6    8   18   19   20   22   28  180 
+      rose:   97  128 
+     round:  101 
+     rouse:  205 
+    rugged:  124 
+       run:   60  175 
+   running:   59 
+         s:    3    7   18   22   28   58   69   81   95  101  149  155  159  166  167  172  173  174  183  188  214  228 
+    safety:  125 
+      said:   49   64   69   77  204 
+      sail:  153 
+    sailed:   71  120  144 
+   sailing:   10 
+    sailor:   40   47   77   90  105  128  139  167 
+   sailors:  150 
+      same:  204 
+       sat:    6   19 
+satisfaction:  187 
+   satisfy:  138 
+     saved:   92   94 
+    saying:  205 
+    scarce:   65 
+scornfully:  209 
+    scream:  214 
+       sea:   35   38  155 
+    seaman:  157 
+    seamen:  135 
+      seas:  117 
+      seat:   53  130 
+    seated:   29 
+    seemed:   54  129 
+   seeming:  142 
+    seldom:  125  148 
+     sence:   81  228 
+    senses:  164 
+     sewed:  107 
+     shame:  115 
+   sharply:  196 
+       she:   19   49  101  108  123  130  144  196  205  211  213  222 
+     shelf:   12 
+   shifted:   53 
+      ship:  120  207 
+     shirt:   32 
+     shook:   90 
+    should:  218 
+    shriek:  110 
+ shrinking:   59 
+      side:    8   11   23   24 
+      sigh:   17 
+   silence:  194 
+    silver:  101 
+    simply:   97 
+     since:  102  118  150 
+       sir:   81   92 
+       sit:  192 
+  sleeping:   26 
+  slightly:   84 
+   sloping:    8 
+      slow:  156 
+     small:   11   22   25   41   97 
+     snuff:  184 
+        so:   57   64   82  124  142  146  148  150  162 
+      sole:  136 
+    solemn:   92 
+solicitous:  142 
+      some:   59   70  157  218 
+  somewhat:  143  185 
+      soon:  144 
+     sorry:  171 
+    sought:  119 
+   sounded:    3 
+     space:   21 
+      spar:   79 
+     spite:  186 
+     spoke:   73  105 
+     spots:  159 
+    square:   20 
+ staggered:  163 
+    stairs:   18 
+     stand:  176 
+     stare:   46 
+    stared:  105 
+  startled:   39 
+    stated:  137 
+      stay:   62 
+     steep:   18 
+     stern:   58 
+   sternly:  130 
+     stick:  213 
+   stiffly:   29 
+  stolidly:   69 
+     stood:  143 
+     store:   22 
+     storm:  131 
+     stout:  120 
+  straight:   30 
+  stranger:   29 
+  striking:   43 
+    string:  100 
+ stringent:    3 
+  striving:   70 
+    strong:  124 
+   studies:  156 
+  stupidly:  105 
+successful:  135 
+    sudden:   43  162 
+  suddenly:  111  129 
+   summons:   28 
+   suppose:  204 
+      sure:  151  188  206 
+ surprised:   29 
+   swaying:   84 
+     sweet:  118 
+         t:   82  176  213  222  229 
+     table:   11   19   98  192 
+      tale:   57 
+      tall:  107 
+    tallow:  183 
+     tears:  110 
+      tell:  173 
+tenderness:  152 
+    terror:   40 
+        th:   78 
+      than:    3  157 
+      that:    8   31   34   37   59   62   64   79  105  109  111  124  131  143  148  155  163  167  176  185  211  214  216  219  229 
+       the:    6    7    8    9   11   12   17   18   19   21   22   23   24   25   26   28   29   30   32   39   44   46   47   53   56   61   62   69   71   74   77   78   82   93   94   95   98  100  101  105  106  108  111  112  114  115  117  118  119  120  121  123  125  128  129  131  132  134  136  137  138  139  141  145  149  150  159  161  163  166  168  179  180  182  183  184  186  187  191  192  204  207  214  217  223 
+      them:   10   70  107  185 
+      then:  179 
+     there:   29   74  206 
+     these:   33 
+      they:   82   94   96 
+     thick:  176 
+      thin:  177 
+     thing:  202 
+     think:  193 
+      this:   56  138  145  171  174  179  205  213  219  223 
+    though:   60 
+thoughtful:  156 
+     three:   79   81 
+   thrifty:  174 
+ throbbing:  113 
+   through:  122  176 
+      thus:  193 
+      tide:   93 
+   tidings:  128 
+   tightly:   31 
+      time:   10   11  105  151  172  193 
+     times:  219 
+        to:   11   18   20   28   29   34   39   43   44   46   48   54   56   58   60   70   75   78   96   97  110  114  121  122  123  126  129  132  138  140  145  148  152  153  155  156  160  175  180  184  185  188  193  198  202  204  205  218 
+      told:  167  219 
+      tone:  213 
+    tongue:  130 
+       too:  149 
+      took:   21  168 
+      town:  138 
+     trade:   33 
+   trading:  136 
+   treated:  152 
+  trembled:  185 
+ trembling:  100 
+tribulations:   61 
+  trinkets:   95 
+  troubles:   61 
+      true:  146 
+     trust:  217 
+    trying:  113  192  204 
+    turned:  217 
+  twilight:  182 
+       two:   23   31 
+uncarpeted:   18 
+unconscious:  146 
+     under:  113  114  179 
+understand:  222 
+  uneasily:   53 
+uneasiness:  149 
+    uneasy:  128 
+universally:  134 
+    unkind:  145 
+    unless:  140 
+    untied:  100 
+     until:  179  217 
+        up:   21   93 
+      upon:   29   98  100  102  160  162  168  184  192 
+  upstairs:    8 
+        us:  157 
+       use:  129 
+      used:  155 
+     usual:    4 
+        ve:   81  171  172  228 
+      very:   56   60 
+   village:   38 
+   virtues:  142 
+    visits:  159 
+     voice:    3   64   92 
+      wail:  110 
+     walls:    8 
+       was:    3    7   11   12   18   20   23   24   25   28   33   34   37   39   47   56   59   60   64   70   75   92   95  109  112  113  118  120  123  125  134  137  138  141  145  146  149  161  162  185  188  205  214  228 
+     watch:   96  101 
+       way:   38  156  200  202 
+      ways:   61 
+        we:  193 
+   wearied:  119 
+   weather:   32 
+      well:  101  189 
+      went:   78 
+      were:    9  159  172  174  223 
+      what:   39  198  200  205  211  220 
+  whatever:  123 
+      when:   48  139  141  167 
+     where:   19   30   80  108 
+   whereon:   12 
+     which:    6   10   21   24   25  137  161  206 
+     while:   93  120  192 
+     white:   40 
+      whom:  117  122 
+       why:   73 
+      wick:  184 
+      wife:  150 
+    wildly:   46 
+    winced:  179 
+    window:   12 
+   windows:   24 
+      wing:   25 
+      with:   10   23   31   40   61   71   77  100  115  131  146  150  152  153  173  187 
+   without:  126 
+     woman:   46  121  183 
+    wonder:  163 
+  wondered:   84  211 
+ wondering:  106 
+    wooden:   20 
+      wore:   32 
+      work:  139 
+   working:  121 
+     world:  112  117  119  124  174 
+      worn:  102 
+     worry:  145 
+     would:   31   84  152 
+     wrung:  179 
+    yachts:   10 
+        ye:  171  173  175  176  228 
+     years:  119  135 
+       you:   15   73   96  157  198  202  216  218  222 
+     young:  163 
+      your:  156 
