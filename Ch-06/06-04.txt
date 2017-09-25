@@ -1,0 +1,9 @@
+Getting started tip ... I hit this page because I could not remember the "mkvim" command. I found it elsewhere and thought I'd throw it in here. If you open vim, change some settings and get things how you like you can use this command
+
+:mkv [file]
+
+to automatically make a vimrc file based on your current settings. The [file] part is optional; vim will use ~/.vimrc by default. If you already have a .vimrc and you attempt this you we will be warned that .vimrc already exists. You can use
+
+mkv!
+
+to overwrite the existing file if you like. However once you do this your original .vimrc file is gone so you may want to back up any existing .vimrc before you try this. 
