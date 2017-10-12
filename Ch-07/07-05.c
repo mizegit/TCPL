@@ -8,7 +8,7 @@ int getop(char s[]);
 main(){
 	char s[10];
 	getop(s);
-    printf("%s", s);
+	printf("%s", s);
 }
 
 /* getop: get next operator or numeric operand
@@ -21,12 +21,12 @@ int getop(char s[])
 	sscanf(lastc, "%c", &c);
 	lastc[0] = ' ';
 	while ((s[0] = c) == ' ' || c == '\t')
-        if (scanf("%c", &c) == EOF)
-             c = EOF;
+		if (scanf("%c", &c) == EOF)
+			 c = EOF;
 	s[1] = '\0';
 	if (!isdigit(c) && c != '.')
-        return c;
-    i = 0;
+		return c;
+	i = 0;
 	if (isdigit(c))
 		do {
 			rc = scanf("%c", &c);
