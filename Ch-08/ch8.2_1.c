@@ -1,11 +1,11 @@
 #include "stdio.h"
 #include "unistd.h"
 
+int getchar2();
+
 main ()
 {
 	int c;
-	int getchar2();
-	
 	c = getchar2();
 	putchar(c);
 }
