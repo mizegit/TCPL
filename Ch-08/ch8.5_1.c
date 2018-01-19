@@ -3,7 +3,7 @@
 #include "unistd.h"
 #define PERMS 0666
 
-FILE  *fopen(char *name, char *mode)
+FILE *fopen(char *name, char *mode)
 {
     int fd;
     FILE *fp;
