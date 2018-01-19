@@ -46,7 +46,7 @@ int fclose(FILE *fp)
     }
 }
 
-/* fflush: flush buffer associated  with file fp */
+/* fflush: flush buffer associated with file fp */
 int fflush(FILE *fp)
 {
     int rc = 0;
