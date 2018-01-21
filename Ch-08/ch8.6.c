@@ -57,5 +57,5 @@ void dirwalk(char *dir, void (*fcn)(char *))
             sprintf(name, "%s/%s", dir, dp->name);
             (*fcn)(name);
         }
-    }
+    } 
 }
